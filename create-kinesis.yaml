@@ -1,0 +1,7 @@
+Resources:
+  MyKinesisStream:
+    Type: 'AWS::Kinesis::Stream'
+    Properties:
+      Name: 'test-stream'
+      ShardCount: 1
+      RetentionPeriodHours: 24
